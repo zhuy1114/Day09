@@ -1,0 +1,8 @@
+info: &data
+  name: "zy"
+  age: "24"
+
+address:
+  <<: *data
+  detail: '软件测试'
+
